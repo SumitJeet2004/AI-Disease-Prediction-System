@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sumit Biswas - About Me</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    .hero-section {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 100px 0;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .bio-box {
+      background: white;
+      border-radius: 10px;
+      padding: 30px;
+      margin-top: -80px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+    .contact-item {
+      margin-bottom: 15px;
+      transition: all 0.3s ease;
+    }
+    .contact-item:hover {
+      transform: translateY(-5px);
+    }
+    .contact-icon {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+    }
+    .section-title {
+      position: relative;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+      font-weight: 700;
+    }
+    .section-title:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 50px;
+      height: 3px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .btn-custom {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border: none;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 25px;
+      transition: all 0.3s ease;
+    }
+    .btn-custom:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero-section animate__animated animate__fadeIn">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Sumit Biswas</h1>
+      <p class="lead animate__animated animate__fadeInUp animate__delay-1s">Final year BTech student in Computer Science</p>
+      <div class="d-flex justify-content-center mt-4">
+        <a href="https://www.linkedin.com/in/sumit-biswas/" class="btn btn-light btn-lg mx-2 animate__animated animate__fadeInUp animate__delay-1s">
+          <i class="fab fa-linkedin me-2"></i>LinkedIn
+        </a>
+        <a href="https://sumitjeet2004.github.io/" class="btn btn-light btn-lg mx-2 animate__animated animate__fadeInUp animate__delay-1s">
+          <i class="fas fa-globe me-2"></i>Portfolio
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Profile Image Column -->
+      <div class="col-lg-4 text-center mb-4">
+        <img src="/static/my_profile.jpg" alt="Sumit Biswas" class="profile-img animate__animated animate__fadeInLeft">
+        <div class="mt-4 animate__animated animate__fadeInUp animate__delay-1s">
+          <a href="https://www.linkedin.com/in/sumit-biswas/" class="btn btn-custom mb-2 w-100">
+            <i class="fab fa-linkedin me-2"></i>Connect on LinkedIn
+          </a>
+          <a href="https://sumitjeet2004.github.io/" class="btn btn-custom mb-2 w-100">
+            <i class="fas fa-globe me-2"></i>View Portfolio
+          </a>
+          <a href="mailto:sumitbiswas15152004@gmail.com" class="btn btn-custom w-100">
+            <i class="fas fa-envelope me-2"></i>Email Me
+          </a>
+        </div>
+      </div>
+
+      <!-- Bio Column -->
+      <div class="col-lg-8">
+        <div class="bio-box animate__animated animate__fadeInRight">
+          <h2 class="section-title">About Me</h2>
+          <p class="lead">Computer Science enthusiast passionate about technology and innovation.</p>
+
+          <div class="row mt-5">
+            <div class="col-md-6 mb-4">
+              <h3 class="h5 fw-bold">Education</h3>
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h4 class="h6 text-primary">BTech in Computer Science</h4>
+                  <p class="mb-1">KIIT University</p>
+                  <p class="text-muted small">Final Year Student</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <h3 class="h5 fw-bold">Location</h3>
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h4 class="h6 text-primary">Based in</h4>
+                  <p class="mb-1">Kolkata, West Bengal</p>
+                  <p class="text-muted small">India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="section-title mt-5">Contact Information</h3>
+          <div class="contact-info">
+            <div class="d-flex align-items-center contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h5 class="mb-0">Email</h5>
+                <p class="mb-0"><a href="mailto:sumitbiswas15152004@gmail.com" class="text-decoration-none">sumitbiswas15152004@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div>
+                <h5 class="mb-0">LinkedIn</h5>
+                <p class="mb-0"><a href="https://www.linkedin.com/in/sumit-biswas/" class="text-decoration-none">linkedin.com/in/sumit-biswas</a></p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div>
+                <h5 class="mb-0">Portfolio</h5>
+                <p class="mb-0"><a href="https://sumitjeet2004.github.io/" class="text-decoration-none">sumitjeet2004.github.io</a></p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h5 class="mb-0">Location</h5>
+                <p class="mb-0">Kolkata, West Bengal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center">
+      <p class="mb-0">© 2025 Sumit Biswas. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script>
+    // Animation on scroll
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add animation classes to elements when they come into view
+      const animateOnScroll = function() {
+        const elements = document.querySelectorAll('.contact-item');
+        elements.forEach((element, index) => {
+          const position = element.getBoundingClientRect();
+
+          // If element is in viewport
+          if(position.top < window.innerHeight && position.bottom >= 0) {
+            setTimeout(() => {
+              element.classList.add('animate__animated', 'animate__fadeInUp');
+            }, index * 150); // Staggered animation
+          }
+        });
+      };
+
+      // Initial check on load
+      animateOnScroll();
+
+      // Check again on scroll
+      window.addEventListener('scroll', animateOnScroll);
+    });
+  </script>
+</body>
+</html>
